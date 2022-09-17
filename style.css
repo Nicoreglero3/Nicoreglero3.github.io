@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(/Logo1.jpg);
+    background-size: contain;
+    
+}
+
+.contendor {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 90px;
+    border: solid 10px;
+    background-color: rgb(1, 86, 255);
+    border-radius: 30px
+    ;
+}
+
+header{
+    width: 100%;
+    background-color: #751f1fb5;
+}
+
+
+ nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}       
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content:space-between
+    
+}
+
+.menu-horizontal > li {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: red;
+    
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.menu-vertical li {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+article {
+    background-color: rgba(10, 10, 10, 0.885);
+    padding: 30px 20px;
+}
+
+h2 {
+    background-color: beige;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    border: solid 3px blue;
+    text-align: center;
+     
+}
+
+img {
+    height: 20em;
+    width: 22em;
+    float: inline-start;
+}
+
+.joda { 
+    display:inline-block;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content:space-between;
+    margin:15px;
+}
+
+h3{
+    border: solid 10px black;
+    width: 550px;
+    display: block;
+
+    background-color: white; 
+
+    color: black;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+h3 {
+    margin-inline: 30%;
+}
+
+
+section{
+   
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.video {
+    width: 20em;
+    height: 22em;
+    display: inline;
+    padding: 20px;
+}
+
+main {
+    margin-top: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 500px;
+    border: 5px groove blue  ;
+    display: flex;
+    margin-inline: 30%;
+    background-color: black;
+    margin-bottom: 2cm;
+    
+
+}
+
+footer {
+    
+    color: white;
+    text-align: center;
+
+   padding-top: 1cm;
+    padding-bottom: 5%;
+    background-color: black;
+
+}
+
+.cervezas li {
+    list-style: none;
+    display: contents;
+
+ }
+
+.tamañoImg {
+    width: 100px;
+    height: 100px;
+}
+
